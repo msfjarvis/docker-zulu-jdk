@@ -1,5 +1,7 @@
 ### docker-zulu-jdk
 
+![Docker Pulls](https://img.shields.io/docker/pulls/msfjarvis/docker-zulu-jdk.svg)
+
 [Zulu](https://www.azul.com/downloads/zulu/)® is 100% open source and freely downloadable OpenJDK builds courtesy of [Azul Systems, Inc](https://www.azul.com).
 
 These docker images package various versions of Zulu under the latest Ubuntu and Alpine Linux environments.
