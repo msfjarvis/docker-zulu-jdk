@@ -5,7 +5,7 @@ LABEL maintainer "Harsh Shandilya <msfjarvis@gmail.com>"
 ENV JAVA_VER 11
 ENV JAVA_HOME /usr/lib/jvm/zulu-11-amd64
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -q software-properties-common
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -q software-properties-common sudo
 
 RUN echo "deb http://repos.azulsystems.com/debian stable main" | sudo tee /etc/apt/sources.list.d/zulu.list && \
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB1998361219BD9C9 && \
