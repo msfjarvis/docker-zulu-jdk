@@ -8,10 +8,23 @@ These docker images package various versions of Zulu under the latest Ubuntu and
 
 Available flavors:
 
-- [JDK 7 on Ubuntu Disco Dingo](ubuntu/jdk-7/Dockerfile)
-- [JDK 8 on Ubuntu Disco Dingo](ubuntu/jdk-8/Dockerfile)
-- [JDK 11 on Ubuntu Disco Dingo](ubuntu/jdk-11/Dockerfile)
-- [JDK 12 on Ubuntu Disco Dingo](ubuntu/jdk-12/Dockerfile)
-- [JDK 8 on Alpine Linux](alpine/jdk-8/Dockerfile)
-- [JDK 11 on Alpine Linux](alpine/jdk-11/Dockerfile)
-- [JDK 12 on Alpine Linux](alpine/jdk-12/Dockerfile)
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:alpine-jdk-8.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-8)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:alpine-jdk-8.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-8)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:alpine-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-11)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:alpine-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-11)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:alpine-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-12)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:alpine-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-12)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-8.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-8)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-8.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-8)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11)
+
+- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12)
+[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12)
