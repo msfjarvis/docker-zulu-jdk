@@ -14,9 +14,6 @@ Available flavors:
 - [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:alpine-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-11)
 [![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:alpine-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-11)
 
-- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:alpine-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-12)
-[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:alpine-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:alpine-jdk-12)
-
 - [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7)
 [![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-7)
 
@@ -25,8 +22,3 @@ Available flavors:
 
 - [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11)
 [![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-11)
-
-- [![](https://images.microbadger.com/badges/version/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12)
-[![](https://images.microbadger.com/badges/image/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12.svg)](https://microbadger.com/images/msfjarvis/docker-zulu-jdk:ubuntu-jdk-12)
-
-Latest build: *Wed Jul 17 02:57:19 IST 2019*

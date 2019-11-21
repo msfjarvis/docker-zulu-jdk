@@ -4,16 +4,12 @@ LABEL maintainer "Harsh Shandilya <msfjarvis@gmail.com>"
 
 ENV JAVA_VER 8
 ENV JAVA_HOME /usr/lib/jvm/zulu-8-amd64
+ENV ZULU_PACKAGE zulu8.42.0.23-ca-jdk8.0.232-linux_x64
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -q software-properties-common sudo
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -q bash wget tar
 
-RUN echo "deb http://repos.azulsystems.com/debian stable main" | sudo tee /etc/apt/sources.list.d/zulu.list && \
-    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB1998361219BD9C9 && \
-    apt-get update && \
-    apt-get install -y --force-yes --no-install-recommends zulu-${JAVA_VER} && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+ADD scripts/install.sh /bin/install-jdk.sh
 
-RUN echo "export JAVA_HOME=/usr/lib/jvm/zulu-8-amd64" >> ~/.bashrc
+RUN . /bin/install-jdk.sh
 
 ENTRYPOINT [ "/bin/bash" ]
