@@ -10,6 +10,6 @@ RUN apk -U update && apk -U add bash wget tar
 
 ADD scripts/install.sh /bin/install-jdk.sh
 
-RUN source /bin/install-jdk.sh
+RUN . /bin/install-jdk.sh
 
 ENTRYPOINT [ "/bin/bash" ]

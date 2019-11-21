@@ -10,7 +10,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -q bash 
 
 ADD scripts/install.sh /bin/install-jdk.sh
 
-RUN source /bin/install-jdk.sh
+RUN . /bin/install-jdk.sh
 
 ENTRYPOINT [ "/bin/bash" ]
 
